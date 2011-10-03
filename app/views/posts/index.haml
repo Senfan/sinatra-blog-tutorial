@@ -1,0 +1,7 @@
+- unless @posts.empty?
+  - @posts.each do |post|
+    .post
+      %a(href="/posts/#{post.id}")
+        %h2= post.title
+      %a(href="posts/#{post.id}/edit") Edit
+      .body= post.body
