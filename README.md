@@ -8,5 +8,7 @@ Check to make sure that you're on the branch that corresponds to the part of the
 
 ## Usage
     rackup
+
 or if you have 'shotgun' installed
+
     shotgun
